@@ -28,23 +28,19 @@ class PluginComposerUpdateCommand extends Command
             echo "current user:" `whoami`
             echo "home path permission is:" `ls -ld ~`
             echo ""
-
-            #test -f ~/.config/composer/composer.json && echo 1 || (mkdir -p ~/.config/composer && echo "{}" > ~/.config/composer/composer.json)
-            #echo ""
-
-            echo "global composer.json content": `cat ~/.config/composer/composer.json`
+            echo `which php`
+            echo `php -v`
             echo ""
-
-            echo "PATH:" `echo \$PATH`
+            echo `which composer`
+            echo `composer --version`
             echo ""
-
-            echo "php:" `which php` "\n version" `php -v`
-            echo "composer:" `which composer` "\n version" `composer --version`
-            echo "git:" `which git` "\n version" `git --version`
+            echo `which git`
+            echo `git --version`
             echo ""
-
-            # install command
             composer diagnose
+            echo ""
+            echo "# Fresns Plugin Command"
+            echo ""
             composer update
         SHELL, $this->output);
 
