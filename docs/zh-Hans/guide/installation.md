@@ -9,7 +9,7 @@
 
 ## 安装
 
-```bash
+```sh
 composer require fresns/plugin-manager
 ```
 
@@ -19,7 +19,7 @@ composer require fresns/plugin-manager
 
 - 发布指令
 
-```bash
+```sh
 php artisan vendor:publish --provider="Fresns\PluginManager\Providers\PluginServiceProvider"
 ```
 

@@ -6,7 +6,7 @@ Laravel 命令字管理器是一个实用的 Laravel 扩展包，旨在帮助插
 
 ## 安装
 
-```bash
+```sh
 composer require fresns/cmd-word-manager
 ```
 

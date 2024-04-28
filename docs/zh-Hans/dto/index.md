@@ -6,7 +6,7 @@
 
 ## 安装
 
-```bash
+```sh
 composer require fresns/dto
 ```
 
