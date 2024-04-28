@@ -4,7 +4,7 @@ As an independent functional module, the plug-in adopts "[command word](https://
 
 ## Make
 
-```php
+```sh
 fresns make:cmdword-provider
 ```
 

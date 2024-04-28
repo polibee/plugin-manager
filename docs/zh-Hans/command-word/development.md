@@ -4,7 +4,7 @@
 
 ## 生成
 
-```php
+```sh
 fresns make:cmdword-provider
 ```
 

@@ -2,24 +2,24 @@
 
 ## Activate Plugin
 
-```php
+```sh
 fresns plugin:activate
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:activate DemoPlugin
 ```
 
 ## Deactivate Plugin
 
-```php
+```sh
 fresns plugin:deactivate
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:deactivate DemoPlugin
 ```

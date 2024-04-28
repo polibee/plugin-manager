@@ -2,11 +2,11 @@
 
 创建一个 fskey 名为 `DemoPlugin` 的插件
 
-```php
+```sh
 fresns plugin:make DemoPlugin
 ```
 或者
 
-```php
- fresns new DemoPlugin
+```sh
+fresns new DemoPlugin
 ```

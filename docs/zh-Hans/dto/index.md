@@ -14,13 +14,13 @@ composer require fresns/dto
 
 - 生成一个新的 DTO（路径：`/app/DTO/`）
 
-```php
+```sh
 php artisan make:dto BaseDTO
 ```
 
 - 生成一个新的 DTO（到指定路径）
 
-```php
+```sh
 php artisan make:dto BaseDTO --path /app/Fresns/Panel
 ```
 

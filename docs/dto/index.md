@@ -8,7 +8,7 @@
 
 To install through Composer, by run the following command:
 
-```bash
+```sh
 composer require fresns/dto
 ```
 
@@ -16,13 +16,13 @@ composer require fresns/dto
 
 - Generate a new DTO (path: `/app/DTO/`)
 
-```php
+```sh
 php artisan make:dto BaseDTO
 ```
 
 - Generate a new DTO (to the specified path)
 
-```php
+```sh
 php artisan make:dto BaseDTO --path /app/Fresns/Panel
 ```
 

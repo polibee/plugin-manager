@@ -4,13 +4,13 @@ When using plug-in instructions, you need to enable the development mode first, 
 
 ## 1. Enable development mode
 
-```php
+```sh
 php artisan fresns
 ```
 
 ## 2. Introduce the project path (auto-identify, just enter)
 
-```php
+```sh
 export /path/to/project/vendor/bin
 ```
 
@@ -18,19 +18,19 @@ export /path/to/project/vendor/bin
 
 - Create a plugin called `DemoPlugin`
 
-```php
+```sh
 fresns new DemoPlugin
 ```
 
 - Go to the plugin `DemoPlugin` directory
 
-```php
+```sh
 fresns enter DemoPlugin
 ```
 
 - Back to the fresns root directory
 
-```php
+```sh
 fresns back
 ```
 

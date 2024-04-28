@@ -4,13 +4,13 @@
 
 Unzip the plugin files into the `/plugins/` directory, the final directory will be `/plugins/{fskey}/`.
 
-```php
+```sh
 fresns plugin:unzip /www/wwwroot/fresns/storage/plugins/downloads/123e4567-e89b-12d3-a456-426614174000.zip
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:unzip /www/wwwroot/fresns/storage/plugins/downloads/123e4567-e89b-12d3-a456-426614174000.zip
 ```
 
@@ -18,13 +18,13 @@ php artisan plugin:unzip /www/wwwroot/fresns/storage/plugins/downloads/123e4567-
 
 Publish static resources for the plugin `DemoPlugin`.
 
-```php
+```sh
 fresns plugin:publish
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:publish DemoPlugin
 ```
 
@@ -34,13 +34,13 @@ php artisan plugin:publish DemoPlugin
 
 Unpublish static resources for the plugin `DemoPlugin`.
 
-```php
+```sh
 fresns plugin:unpublish
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:unpublish DemoPlugin
 ```
 
@@ -50,13 +50,13 @@ php artisan plugin:unpublish DemoPlugin
 
 Composer all plugins.
 
-```php
+```sh
 fresns plugin:composer-update
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:composer-update
 ```
 
@@ -64,13 +64,13 @@ php artisan plugin:composer-update
 
 Migrate the given plugin, or without a plugin an argument, migrate all plugins.
 
-```php
+```sh
 fresns plugin:migrate
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:migrate DemoPlugin
 ```
 
@@ -78,13 +78,13 @@ php artisan plugin:migrate DemoPlugin
 
 Rollback the given plugin, or without an argument, rollback all plugins.
 
-```php
+```sh
 fresns plugin:migrate-rollback
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:migrate-rollback DemoPlugin
 ```
 
@@ -92,13 +92,13 @@ php artisan plugin:migrate-rollback DemoPlugin
 
 Refresh the migration for the given plugin, or without a specified plugin refresh all plugins migrations.
 
-```php
+```sh
 fresns plugin:migrate-refresh
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:migrate-refresh DemoPlugin
 ```
 
@@ -106,13 +106,13 @@ php artisan plugin:migrate-refresh DemoPlugin
 
 Reset the migration for the given plugin, or without a specified plugin reset all plugins migrations.
 
-```php
+```sh
 fresns plugin:migrate-reset
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:migrate-reset DemoPlugin
 ```
 
@@ -120,13 +120,13 @@ php artisan plugin:migrate-reset DemoPlugin
 
 Seed the given plugin, or without an argument, seed all plugins.
 
-```php
+```sh
 fresns plugin:seed
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:seed DemoPlugin
 ```
 
@@ -134,13 +134,13 @@ php artisan plugin:seed DemoPlugin
 
 Execute the `plugin:unzip`、`plugin:composer-update`、`plugin:migrate`、`plugin:publish` commands in that order.
 
-```php
+```sh
 fresns plugin:install /www/wwwroot/fresns/storage/plugins/123e4567-e89b-12d3-a456-426614174000.zip
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:install /www/wwwroot/fresns/storage/plugins/123e4567-e89b-12d3-a456-426614174000.zip
 ```
 
@@ -148,14 +148,14 @@ php artisan plugin:install /www/wwwroot/fresns/storage/plugins/123e4567-e89b-12d
 
 Uninstall the plugin and select whether you want to clean the data of the plugin.
 
-```php
+```sh
 fresns plugin:uninstall --cleardata=true
 fresns plugin:uninstall --cleardata=false
 ```
 
 or
 
-```php
+```sh
 php artisan plugin:uninstall DemoPlugin --cleardata=true
 php artisan plugin:uninstall DemoPlugin --cleardata=false
 ```

@@ -2,11 +2,11 @@
 
 Create a plugin with fskey as `DemoPlugin`
 
-```php
+```sh
 fresns plugin:make DemoPlugin
 ```
 or
 
-```php
- fresns new DemoPlugin
+```sh
+fresns new DemoPlugin
 ```

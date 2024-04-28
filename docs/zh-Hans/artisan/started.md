@@ -4,13 +4,13 @@
 
 ## 1、启用开发模式
 
-```php
+```sh
 php artisan fresns
 ```
 
 ## 2、引入项目路径（自动识别，回车即可）
 
-```php
+```sh
 export /path/to/project/vendor/bin
 ```
 
@@ -18,19 +18,19 @@ export /path/to/project/vendor/bin
 
 - 创建名为 DemoPlugin 的插件
 
-```php
+```sh
 fresns new DemoPlugin
 ```
 
 - 进入插件 DemoPlugin 目录
 
-```php
+```sh
 fresns enter DemoPlugin
 ```
 
 - 退出插件目录，回到项目根目录
 
-```php
+```sh
 fresns back
 ```
 
