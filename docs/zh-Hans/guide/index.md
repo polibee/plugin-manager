@@ -42,7 +42,7 @@ Plugin Manager 已经使用在 Fresns 社区程序中，并且构建了一个 Fr
 
 Fresns 是一款免费开源的社交网络服务软件，专为跨平台而打造的通用型社区产品，支持灵活多样的内容形态，可以满足多种运营场景，符合时代潮流，更开放且更易于二次开发。
 
-- Fresns 官网 [https://zh-hans.fresns.org](https://zh-hans.fresns.org/)
+- Fresns 官网 [https://fresns.org](https://fresns.org/zh-Hans/)
 - Fresns 应用市场 [https://marketplace.fresns.com](https://marketplace.fresns.com/zh-Hans/open-source)
 
 ## 代码仓库
