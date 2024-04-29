@@ -33,39 +33,6 @@ $wordBody = [
 ]);
 ```
 
-::: details 可选方法
-| 名称 | 说明 |
-| --- | --- |
-| `$FsDto` | 数据传输对象：通过 Fresns DTO Contract 为你完成入参的数据校验，以及定义入参的调用方式（FsDto 名可自定义）。 |
-| `make([...])` | `...` 为请求参数的数组 |
-| `array` | 返参对象的契约，可以不使用，使用则是定义返参对象的契约。<br>比如自己开发的返参类型的约束功能，封装后在此定义使用；也可以使用官方提供的契约。 |
-:::
-
-::: details 可选方法示例
-```php
-//$参数列表 = 数据传输对象::make(参数数组);
-$wordBody = FsDto::make([
-    "email" => "收件地址",
-    "title" => "邮件标题",
-    "content" => "邮件内容"
-]);
-
-// \命令字立面::plugin('插件名')->命令字($参数列表): 定义返参对象的契约
-\FresnsCmdWord::plugin('FresnsEmail')->sendEmail($wordBody);
-```
-
-**另一种写法**
-```php
-\FresnsCmdWord::plugin('FresnsEmail')->sendEmail(
-    FsDto::make([
-        "email" => "收件地址",
-        "title" => "邮件标题",
-        "content" => "邮件内容"
-    ])
-);
-```
-:::
-
 ## 结果输出 output
 
 | 参数 | 说明 |

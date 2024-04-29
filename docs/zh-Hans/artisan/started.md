@@ -35,3 +35,8 @@ fresns back
 ```
 
 ## 4、在插件目录执行开发、管理、控制指令
+
+- [创建新插件](create.md)
+- [开发指令](development.md)
+- [控制指令](control.md)
+- [管理指令](management.md)

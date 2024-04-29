@@ -37,3 +37,8 @@ fresns back
 ## 4. Execute development
 
 Execute development, management, and control commands in the plugin directory
+
+- [Generate](create.md)
+- [Development](development.md)
+- [Control](control.md)
+- [Management](management.md)
