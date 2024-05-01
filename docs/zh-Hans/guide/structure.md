@@ -29,7 +29,7 @@ laravel/            // 主程序
     "fskey": "DemoPlugin", // 唯一标识，大驼峰
     "name": "演示插件", // 名字
     "description": "这是演示插件", // 描述
-    "developer": "唐杰", // 开发者
+    "author": "唐杰", // 开发者
     "website": "https://tangjie.me", // 开发者主页
     "version": "1.0.0", // 语义化版本号
     "providers": [

@@ -29,7 +29,7 @@ laravel/            // Main Program
     "fskey": "DemoPlugin",
     "name": "Demo Plugin",
     "description": "Plugin description",
-    "developer": "Jevan Tang",
+    "author": "Jevan Tang",
     "website": "https://github.com/jevantang",
     "version": "1.0.0",
     "providers": [
