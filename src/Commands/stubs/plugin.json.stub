@@ -3,15 +3,15 @@
     "name": "$STUDLY_NAME$",
     "description": "$STUDLY_NAME$ plugin made by $AUTHOR_NAME$",
     "author": "$AUTHOR_NAME$",
-    "authorLink": "$AUTHOR_LINK$",
+    "website": "$AUTHOR_URL$",
     "version": "1.0.0",
-    "scene": [],
-    "accessPath": "/$KEBAB_NAME$",
-    "settingsPath": "/$KEBAB_NAME$/setting",
     "providers": [
         "$PLUGIN_NAMESPACE$\\$STUDLY_NAME$\\Providers\\PluginServiceProvider",
         "$PLUGIN_NAMESPACE$\\$STUDLY_NAME$\\Providers\\RouteServiceProvider"
     ],
     "autoloadFiles": [],
-    "aliases": {}
+    "aliases": {},
+    "panelUsages": [],
+    "accessPath": "/$KEBAB_NAME$",
+    "settingsPath": "/$KEBAB_NAME$/setting"
 }
