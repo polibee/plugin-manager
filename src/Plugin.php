@@ -320,10 +320,10 @@ class Plugin
         // This checks if we are running on a Laravel Vapor managed instance
         // and sets the path to a writable one (services path is not on a writable storage in Vapor).
         if (! is_null(env('VAPOR_MAINTENANCE_MODE', null))) {
-            return Str::replaceLast('config.php', $this->getSnakeName().'_plugin.php', app()->getCachedConfigPath());
+            return Str::replaceLast('config.php', 'plugin_'.$this->getSnakeName().'.php', app()->getCachedConfigPath());
         }
 
-        return Str::replaceLast('services.php', $this->getSnakeName().'_plugin.php', app()->getCachedServicesPath());
+        return Str::replaceLast('services.php', 'plugin_'.$this->getSnakeName().'.php', app()->getCachedServicesPath());
     }
 
     public function manualAddNamespace()
