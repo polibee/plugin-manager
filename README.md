@@ -14,6 +14,10 @@ Enhance Laravel Apps: Organized & Scalable
 
 Plugin Manager Docs: [https://pm.fresns.org](https://pm.fresns.org/)
 
+## Sponsors
+
+Fresns is an Apache-2.0-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider [sponsoring Fresns development](https://github.com/sponsors/fresns).
+
 ## Install
 
 To install through Composer, by run the following command:
