@@ -2,7 +2,7 @@
 
 Plugin Manager has been used in the Fresns community app and has built an ecosystem of Fresns apps.
 
-Fresns is a free and open source social network service software, a general-purpose community product designed for cross-platform, and supports flexible and diverse content forms. It conforms to the trend of the times, satisfies a variety of operating scenarios, is more open and easier to re-development.
+> Fresns is a free and open source social network service software, a general-purpose community product designed for cross-platform, and supports flexible and diverse content forms. It conforms to the trend of the times, satisfies a variety of operating scenarios, is more open and easier to re-development.
 
 - Fresns [https://fresns.org](https://fresns.org/)
 - Fresns Marketplace [https://marketplace.fresns.com](https://marketplace.fresns.com/open-source)

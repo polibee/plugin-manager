@@ -37,6 +37,7 @@ fresns make:test                    # Generate Plugin Test
 fresns make:schedule-provider       # Generate Plugin Schedule Provider
 fresns make:event-provider          # Generate Plugin Event Provider
 fresns make:sql-provider            # Generate Plugin SQL Provider
+fresns make:exception-provider      # Generate Plugin Exception Provider
 fresns make:cmdword-provider        # Generate Plugin Command Word Provider (fresns/cmd-word-manager)
 ```
 

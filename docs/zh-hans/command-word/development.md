@@ -16,7 +16,7 @@ fresns make:cmdword-provider
 
 ```json
 {
-    //在 plugin.json 文件中找到 providers
+    // 在 plugin.json 文件中找到 providers
     "providers": [
         "Plugins\\DemoPlugin\\Providers\\CmdWordServiceProvider"
     ]
