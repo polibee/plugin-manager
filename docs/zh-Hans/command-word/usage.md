@@ -8,7 +8,7 @@
 | --- | --- |
 | `\FresnsCmdWord` | 命令字立面（Facades） |
 | `FresnsEmail` | 请求对象 `fskey`，留空或填 `Fresns` 则表示由主程序处理请求 |
-| `sendEmail` | 命令字（可参考 [Fresns 命令字](https://docs.fresns.com/zh-Hans/open-source/supports/cmd-words/basic.html)） |
+| `sendEmail` | 命令字（可参考 [Fresns 命令字](https://docs.fresns.com/zh-hans/open-source/supports/cmd-words/basic.html)） |
 | `$wordBody` | 命令字传参的参数列表 |
 
 ```php

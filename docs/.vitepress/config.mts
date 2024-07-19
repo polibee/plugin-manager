@@ -77,7 +77,7 @@ export default defineConfig({
             provider: 'local',
             options: {
                 locales: {
-                    'zh-Hans': {
+                    'zh-hans': {
                         translations: {
                             button: {
                                 buttonText: '搜索文档',
@@ -108,17 +108,17 @@ export default defineConfig({
             label: 'English',
             lang: 'en-US'
         },
-        'zh-Hans': {
+        'zh-hans': {
             label: '简体中文',
             lang: 'zh-Hans',
             description: '插件管理器是一个便捷的 Laravel 扩展包，用于模块化管理您的庞大 Laravel 应用程序。每个插件就像一个独立的 Laravel 应用或者微服务，可以定义自己的视图、控制器和模型。',
             themeConfig: {
                 nav: [
-                    { text: '首页', link: '/zh-Hans/' },
-                    { text: '指南', link: '/zh-Hans/guide/', activeMatch: '/zh-Hans/guide/' },
-                    { text: '插件指令', link: '/zh-Hans/artisan/', activeMatch: '/zh-Hans/artisan/' },
-                    { text: '命令字', link: '/zh-Hans/command-word/', activeMatch: '/zh-Hans/command-word/' },
-                    { text: 'DTO', link: '/zh-Hans/dto/', activeMatch: '/zh-Hans/dto/' },
+                    { text: '首页', link: '/zh-hans/' },
+                    { text: '指南', link: '/zh-hans/guide/', activeMatch: '/zh-hans/guide/' },
+                    { text: '插件指令', link: '/zh-hans/artisan/', activeMatch: '/zh-hans/artisan/' },
+                    { text: '命令字', link: '/zh-hans/command-word/', activeMatch: '/zh-hans/command-word/' },
+                    { text: 'DTO', link: '/zh-hans/dto/', activeMatch: '/zh-hans/dto/' },
                 ],
 
                 footer: {
@@ -148,38 +148,38 @@ export default defineConfig({
                         text: '使用指南',
                         collapsed: false,
                         items: [
-                            { text: '介绍', link: '/zh-Hans/guide/' },
-                            { text: '安装和配置', link: '/zh-Hans/guide/installation.md' },
-                            { text: '插件结构', link: '/zh-Hans/guide/structure.md' },
-                            { text: '使用案例', link: '/zh-Hans/guide/use-cases.md' },
+                            { text: '介绍', link: '/zh-hans/guide/' },
+                            { text: '安装和配置', link: '/zh-hans/guide/installation.md' },
+                            { text: '插件结构', link: '/zh-hans/guide/structure.md' },
+                            { text: '使用案例', link: '/zh-hans/guide/use-cases.md' },
                         ]
                     },
                     {
                         text: '插件指令',
                         collapsed: false,
                         items: [
-                            { text: '总览', link: '/zh-Hans/artisan/' },
-                            { text: '使用流程', link: '/zh-Hans/artisan/started.md' },
-                            { text: '创建新插件', link: '/zh-Hans/artisan/create.md' },
-                            { text: '开发指令', link: '/zh-Hans/artisan/development.md' },
-                            { text: '控制指令', link: '/zh-Hans/artisan/control.md' },
-                            { text: '管理指令', link: '/zh-Hans/artisan/management.md' },
+                            { text: '总览', link: '/zh-hans/artisan/' },
+                            { text: '使用流程', link: '/zh-hans/artisan/started.md' },
+                            { text: '创建新插件', link: '/zh-hans/artisan/create.md' },
+                            { text: '开发指令', link: '/zh-hans/artisan/development.md' },
+                            { text: '控制指令', link: '/zh-hans/artisan/control.md' },
+                            { text: '管理指令', link: '/zh-hans/artisan/management.md' },
                         ]
                     },
                     {
                         text: '命令字管理器',
                         collapsed: false,
                         items: [
-                            { text: '介绍', link: '/zh-Hans/command-word/index.md' },
-                            { text: '命令字开发', link: '/zh-Hans/command-word/development.md' },
-                            { text: '命令字使用', link: '/zh-Hans/command-word/usage.md' },
+                            { text: '介绍', link: '/zh-hans/command-word/index.md' },
+                            { text: '命令字开发', link: '/zh-hans/command-word/development.md' },
+                            { text: '命令字使用', link: '/zh-hans/command-word/usage.md' },
                         ]
                     },
                     {
                         text: 'DTO',
                         collapsed: false,
                         items: [
-                            { text: '介绍', link: '/zh-Hans/dto/index.md' },
+                            { text: '介绍', link: '/zh-hans/dto/index.md' },
                         ]
                     }
                 ],

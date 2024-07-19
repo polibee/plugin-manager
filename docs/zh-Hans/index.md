@@ -14,13 +14,13 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /zh-Hans/guide/
+      link: /zh-hans/guide/
     - theme: alt
       text: 插件指令
-      link: /zh-Hans/artisan/
+      link: /zh-hans/artisan/
     - theme: alt
       text: 命令字管理器
-      link: /zh-Hans/command-word/
+      link: /zh-hans/command-word/
 
 features:
   - icon: 🔌
