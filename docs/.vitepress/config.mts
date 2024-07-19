@@ -108,6 +108,83 @@ export default defineConfig({
             label: 'English',
             lang: 'en-US'
         },
+        'zh-hant': {
+            label: '繁體中文',
+            lang: 'zh-Hant',
+            description: '外掛管理器是一個便捷的 Laravel 擴充包，用於模組化管理您的龐大 Laravel 應用程式。每個外掛就像一個獨立的 Laravel 應用或者微服務，可以定義自己的視圖、控制器和模型。',
+            themeConfig: {
+                nav: [
+                    { text: '首頁', link: '/zh-hant/' },
+                    { text: '指南', link: '/zh-hant/guide/', activeMatch: '/zh-hant/guide/' },
+                    { text: '外掛指令', link: '/zh-hant/artisan/', activeMatch: '/zh-hant/artisan/' },
+                    { text: '指令字', link: '/zh-hant/command-word/', activeMatch: '/zh-hant/command-word/' },
+                    { text: 'DTO', link: '/zh-hant/dto/', activeMatch: '/zh-hant/dto/' },
+                ],
+
+                footer: {
+                    message: '遵循 Apache-2.0 開源協定',
+                    copyright: 'Copyright © 2021-2024 <a href="https://github.com/jevantang" target="_blank">Jevan Tang</a>',
+                },
+
+                outlineTitle: '本頁導覽',
+                returnToTopLabel: '回到頂部',
+                sidebarMenuLabel: '選單',
+                darkModeSwitchLabel: '深色模式',
+
+                editLink: {
+                    pattern: 'https://github.com/fresns/plugin-manager/tree/2.x/docs/:path',
+                    text: '為此頁提供修改建議'
+                },
+
+                lastUpdatedText: '最後一次更新',
+
+                docFooter: {
+                    prev: '上一項',
+                    next: '下一項',
+                },
+
+                sidebar: [
+                    {
+                        text: '使用指南',
+                        collapsed: false,
+                        items: [
+                            { text: '介紹', link: '/zh-hant/guide/' },
+                            { text: '安裝和配置', link: '/zh-hant/guide/installation.md' },
+                            { text: '外掛結構', link: '/zh-hant/guide/structure.md' },
+                            { text: '使用案例', link: '/zh-hant/guide/use-cases.md' },
+                        ]
+                    },
+                    {
+                        text: '外掛指令',
+                        collapsed: false,
+                        items: [
+                            { text: '總覽', link: '/zh-hant/artisan/' },
+                            { text: '使用流程', link: '/zh-hant/artisan/started.md' },
+                            { text: '創建新外掛', link: '/zh-hant/artisan/create.md' },
+                            { text: '開發指令', link: '/zh-hant/artisan/development.md' },
+                            { text: '控制指令', link: '/zh-hant/artisan/control.md' },
+                            { text: '管理指令', link: '/zh-hant/artisan/management.md' },
+                        ]
+                    },
+                    {
+                        text: '指令字管理器',
+                        collapsed: false,
+                        items: [
+                            { text: '介紹', link: '/zh-hant/command-word/index.md' },
+                            { text: '指令字開發', link: '/zh-hant/command-word/development.md' },
+                            { text: '指令字使用', link: '/zh-hant/command-word/usage.md' },
+                        ]
+                    },
+                    {
+                        text: 'DTO',
+                        collapsed: false,
+                        items: [
+                            { text: '介紹', link: '/zh-hant/dto/index.md' },
+                        ]
+                    }
+                ],
+            }
+        },
         'zh-hans': {
             label: '简体中文',
             lang: 'zh-Hans',
