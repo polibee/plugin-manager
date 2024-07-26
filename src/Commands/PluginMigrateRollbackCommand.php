@@ -41,7 +41,7 @@ class PluginMigrateRollbackCommand extends Command
         try {
             $path = $plugin->getMigratePath();
             if (glob("$path/*")) {
-                $exitCode = $this->call('migrate:reset', [
+                $exitCode = $this->call('migrate:rollback', [
                     '--database' => $this->option('database'),
                     '--force' => $this->option('force') ?? true,
                     '--path' => $plugin->getMigratePath(),
